@@ -1,0 +1,81 @@
+/* normal text-field */
+.text-field {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 100%;
+}
+
+.text-field-input {
+  margin-top: 8px;
+  height: 36px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+.text-field-input::placeholder {
+  color: #999999;
+}
+
+.text-field-input:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.text-field-input:focus {
+  border-color: #50b83c;
+  background-color: #fff;
+  outline: none;
+}
+
+.text-field-input:disabled {
+  background: #ebebeb;
+  cursor: default;
+}
+
+.text-field-input-container {
+  position: relative;
+}
+
+.text-field-icon {
+  color: #666666;
+  font-size: 12px;
+  position: absolute;
+  right: 6px;
+  top: calc(50% - (12px / 2) - 1px);
+}
+
+/* error text-field */
+.text-field-input-error {
+  height: 36px;
+  border: 1px solid #e61d1d;
+  border-radius: 4px;
+  padding: 0 12px;
+  margin-top: 6px;
+}
+
+.text-field-input-error:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.text-field-input-error:focus {
+  border-color: #50b83c;
+  outline: none;
+}
+
+.text-field-input-error::placeholder {
+  color: transparent;
+}
+
+.text-field-message-error {
+  font-weight: 400;
+  font-size: 7px;
+  color: #e61d1d;
+  margin-top: 6px;
+}
+
+.modal-form-label{
+  cursor: auto;
+}

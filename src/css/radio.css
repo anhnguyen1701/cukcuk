@@ -1,0 +1,29 @@
+.radio-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.radio-title {
+  font-weight: 500;
+}
+
+.radio-select {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  gap: 10px;
+}
+
+.radio-select-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.radio-select-item-input {
+  height: 24px;
+  width: 24px;
+}

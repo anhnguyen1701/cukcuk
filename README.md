@@ -1,0 +1,1 @@
+- user is authenticated in keycloak vue

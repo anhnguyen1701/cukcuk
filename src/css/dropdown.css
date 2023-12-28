@@ -1,0 +1,26 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+}
+
+.dropdown-select {
+  margin-top: 8px;
+  height: 36px;
+  /* border: 1px solid #e6e6e6; */
+  outline: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 8px 0 8px 8px;
+  border-right: 8px solid transparent;
+}
+
+.dropdown-select:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.dropdown-select:focus {
+  outline-color: #50b83c;
+}
